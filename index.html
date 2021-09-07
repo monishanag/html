@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Web Design</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <div class="text-box">
+                <h1>World's Biggest University</h1>
+                <p>MAKE YOUR AMBITIONS A REALITY</p>
+                <a href="" class="hero-btn">Visit Us To Know More</a>
+            </div>
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Doctrina Perpetua</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <br><p>10th</p>
+                <p>11th</p>
+                <p>12th</p>
+            </div>
+            <div class="course-col">
+                <h3>Under-Graduate</h3>
+                <br><p>B. Tech.</p>
+                <p>B.A.</p>
+                <p>B.Sc.</p>
+                <p>B.B.A.</p>
+                <p>B.Com.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post-Graduate</h3>
+                <br><p>M. Tech.</p>
+                <p>M.A.</p>
+                <p>M.Sc.</p>
+                <p>M.B.A.</p>
+                <p>M.Com.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Ingeniis Patuit Campus</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="Images/london.png">
+                <div class="layer">
+                    <h3>DELHI</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="Images/newyork.png">
+                <div class="layer">
+                    <h3>BANGALORE</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="Images/washington.png">
+                <div class="layer">
+                    <h3>MUMBAI</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>	Incipit Vita Nova</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="Images/library.png">
+                <h3>World-Class Library</h3>
+                <p>Scientia ad Sapientiam</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Images/basketball.png">
+                <h3>Largest Playground</h3>
+                <p>Semper apertus</p>
+            </div>
+            <div class="facilities-col">
+                <img src="Images/cafeteria.png">
+                <h3>Healthy Food</h3>
+                <p>Accipit ut Det</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h1>What Our Students Have To Say</h1>
+        <p>Lumen Ad Viem</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="Images/user1.jpg">
+                <div>
+                    <p>"Great experience from Eduford. You get a lot of opportunities. Work hard to get it. Be prepared for everything. Maintain your attendance."</p>
+                    <br><br><br><br><br><br><h3>Manoj Kumar</h3>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="Images/user2.jpg">
+                <div>
+                    <p>"It was my immense luck and fortune to be the part of EduFord University where I can grow. The entire faculty and department leaves no stone unturned to shape ones future. My four years at EduFord have been a wonderful experience of learning with prolific exposure to outside. Huge respect, love and devotion for entire faculty members and department. Its their efforts that make me to count myself into better professionals."</p>
+                    <br><h3>Sana Shaikh</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Enroll For Our Various Courses <br> Anywhere From The World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <P>Argentum virtus robur et studium</P>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+
+        </div>
+
+    </section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function showMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
